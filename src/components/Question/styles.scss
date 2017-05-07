@@ -1,8 +1,11 @@
+@import '../../styles/styles';
+
 .question-container {
   text-align: center;
 
   .question-text {
     color: white;
-    font: 20px 'Raleway', sans-serif;
+    font-family: $text-font;
+    font-size: 36px;
   }
 }

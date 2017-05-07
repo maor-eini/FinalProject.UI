@@ -2,24 +2,22 @@
 
 
 .answer-container {
-  background-color: $button-pink;
+  background-color: $button-orange;
   font-family: $text-font;
-  margin: 15px;
-  padding: 5px 10px;
+  margin: 20px;
+  padding: 10px 15px;
   border-radius: 5px;
-  width: 150px;
   text-align: center;
   line-height: 30px;
   cursor: pointer;
 
   &:hover{
-    background-color: $hover-pink;
+    background-color: $hover-orange;
   }
 
   .answer-text {
     color: white;
-    font-weight: 400;
-
+    font-size: 20px;
   }
 }
 

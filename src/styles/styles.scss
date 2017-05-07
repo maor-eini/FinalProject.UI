@@ -1,20 +1,43 @@
-$background-green: #59c594;
-$button-pink: #f33657;
-$hover-pink: #d4334f;
-$vin-red: #ff0000;
+$background-blue: #78afae;
+$dark-blue: #588b8a;
+$button-orange: #f5942f;
+$hover-orange: #e28523;
 $title-font: 'Raleway', sans-serif;
-$text-font: 'Open Sans', sans-serif;
+$text-font: 'PT Sans', sans-serif;
 
 body {
   min-width: 230px;
-  max-width: 550px;
-  margin: 0 auto;
-  background-color: $background-green;
+  margin: auto;
+  background-color: $background-blue;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   font-smoothing: antialiased;
+  text-align: center;
 }
 
 ul {
   padding: 0;
+}
+
+h1, h2 {
+  font-family: $title-font;
+  color: white;font-size: 36px;
+  margin-left: 20px;
+}
+
+.logo-big {
+  height: 200px;
+}
+
+.site-title{
+  font-size: 54px;
+  text-shadow: 3px 3px 2px #588b8a;
+  margin: 0;
+}
+
+.items {
+  width: 1268px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }

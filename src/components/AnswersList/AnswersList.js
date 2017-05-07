@@ -5,11 +5,12 @@ import './styles.scss'
 export default function AnswersList(props){
   return (
     <ul className="answer-list">
+    { console.log(props)}
     {
       props.answers.map((answer, index) => {
         return (
           <li key={ index }>
-            <Answer answer={ answer }/>
+            <Answer answer={ answer } onClick={ props.onAnswerClick }/>
           </li>
         )
       })

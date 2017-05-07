@@ -5,18 +5,12 @@ import './styles.scss'
 
 export default class Quiz extends React.Component {
   render (){
-    const quiz = {
-      question: "Whats Your Name?",
-      answers: [
-        { value:"first answer" },
-        { value: "second answer" }
-      ]
-    }
-
+    const { currentQuestion, onAnswerClick } = this.props
+    console.log(currentQuestion)
     return (
       <div className="quiz-container">
-        <Question question={ quiz.question } />
-        <AnswersList answers={ quiz.answers } />
+        <Question question={ currentQuestion.question } />
+        <AnswersList answers={ currentQuestion.answers } onAnswerClick={ onAnswerClick }/>
       </div>
     )
   }

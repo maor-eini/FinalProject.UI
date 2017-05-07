@@ -1,0 +1,30 @@
+@import '../../styles/styles';
+
+.search-container {
+  position: relative;
+
+  input{
+    width: 800px;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 100px 200px;
+    border: 3px solid $dark-blue;
+    border-radius: 8px;
+    font-family: $title-font;
+    outline: none;
+  }
+
+  .answer-container {
+    position: absolute;
+    top: 0;
+    bottom: 200px;
+    left: 775px;
+    right: 0;
+    margin: auto;
+    display: inline-block;
+    width: 50px;
+    height: 14px;
+    line-height: 14px;
+  }
+}
